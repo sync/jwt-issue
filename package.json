@@ -1,0 +1,53 @@
+{
+  "name": "jwt",
+  "version": "0.0.0",
+  "description": "My Project",
+  "esy": {
+    "build": "dune build -p #{self.name}",
+    "release": {
+      "releasedBinaries": [
+        "JwtApp.exe"
+      ]
+    }
+  },
+  "buildDirs": {
+    "test": {
+      "require": [
+        "jwt/library",
+        "rely.lib"
+      ],
+      "bin": {
+        "TestJwt.exe": "TestJwt.re"
+      }
+    },
+    "library": {},
+    "executable": {
+      "require": [
+        "jwt/library"
+      ],
+      "bin": {
+        "JwtApp.exe": "JwtApp.re"
+      }
+    }
+  },
+  "scripts": {
+    "test": "esy b dune runtest"
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "@esy-ocaml/reason": "*",
+    "refmterr": "*",
+    "ocaml": "~4.6.0",
+    "pesy": "*",
+    "@reason-native/rely": "*",
+    "@opam/jwt": "*",
+    "@opam/nocrypto": "*"
+  },
+  "devDependencies": {
+    "@opam/merlin": "*"
+  },
+  "resolutions": {
+    "pesy": "esy/pesy#ba6359f25621280a8105d2ffc99d75d849c0d95a",
+    "@opam/nocrypto": "mirleft/ocaml-nocrypto:opam#ed7bb8d911dc340e36d85d335d9edb8339f0932d"
+  }
+}

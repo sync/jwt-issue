@@ -1,0 +1,4 @@
+#!/bin/sh
+export ESY__NODE_BIN_PATH="/Users/anthonymittaz/Projects/Reason/jwt/_esy/default/bin"
+exec "/var/folders/12/3py3x7j151s4nsbxns4jbs7w0000gn/T/fnm-shell-5576136/bin/node" -r "/Users/anthonymittaz/Projects/Reason/jwt/_esy/default/pnp.js" "$@"
+              

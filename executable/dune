@@ -1,0 +1,1 @@
+(executable (name JwtApp) (public_name JwtApp.exe) (libraries jwt.library)) 

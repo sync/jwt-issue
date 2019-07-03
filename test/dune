@@ -1,0 +1,1 @@
+(test (name TestJwt) (libraries jwt.library rely.lib)) 

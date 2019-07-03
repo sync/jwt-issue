@@ -1,0 +1,17 @@
+(lang dune 1.10)
+(name jwt)
+(library
+ (name jwt.library)
+ (kind normal)
+ (orig_src_dir /Users/anthonymittaz/Projects/Reason/jwt/library)
+ (archives (byte library/Library.cma) (native library/Library.cmxa))
+ (plugins (byte library/Library.cma) (native library/Library.cmxs))
+ (foreign_archives (native library/Library.a))
+ (requires jwt)
+ (main_module_name Library)
+ (modes byte native)
+ (modules
+  (alias_module (name Library) (obj_name library) (visibility public) (impl))
+  (main_module_name Library)
+  (modules ((name Util) (obj_name library__Util) (visibility public) (impl)))
+  (wrapped true)))

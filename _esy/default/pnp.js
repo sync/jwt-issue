@@ -175,14 +175,15 @@ new Map([["0.0.0",
              packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
                                              ["@opam/base-unix", "opam:base"]])}]])],
   ["@opam/base64",
-  new Map([["opam:2.3.0",
+  new Map([["opam:3.2.0",
            {
-             packageLocation: "/Users/anthonymittaz/.esy/source/i/opam__s__base64__opam__c__2.3.0__9e2abab1/",
+             packageLocation: "/Users/anthonymittaz/.esy/source/i/opam__s__base64__opam__c__3.2.0__6d458a0f/",
              packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
                                              ["@opam/base-bytes",
                                              "opam:base"],
-                                             ["@opam/base64", "opam:2.3.0"],
-                                             ["@opam/dune", "opam:1.10.0"]])}]])],
+                                             ["@opam/base64", "opam:3.2.0"],
+                                             ["@opam/dune", "opam:1.10.0"],
+                                             ["ocaml", "4.6.10"]])}]])],
   ["@opam/biniou",
   new Map([["opam:1.2.0",
            {
@@ -228,14 +229,6 @@ new Map([["0.0.0",
                                              ["@opam/conf-gmp", "opam:1"],
                                              ["esy-gmp",
                                              "archive:https://gmplib.org/download/gmp/gmp-6.1.2.tar.xz#sha1:9dc6981197a7d92f339192eea974f5eca48fcffe"]])}]])],
-  ["@opam/conf-gmp-powm-sec",
-  new Map([["opam:1",
-           {
-             packageLocation: "/Users/anthonymittaz/.esy/source/i/opam__s__conf_gmp_powm_sec__opam__c__1__7c74aeb8/",
-             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
-                                             ["@opam/conf-gmp", "opam:1"],
-                                             ["@opam/conf-gmp-powm-sec",
-                                             "opam:1"]])}]])],
   ["@opam/conf-m4",
   new Map([["opam:1",
            {
@@ -248,31 +241,25 @@ new Map([["0.0.0",
              packageLocation: "/Users/anthonymittaz/.esy/source/i/opam__s__conf_perl__opam__c__1__f2838807/",
              packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
                                              ["@opam/conf-perl", "opam:1"]])}]])],
-  ["@opam/conf-pkg-config",
-  new Map([["opam:1.1",
-           {
-             packageLocation: "/Users/anthonymittaz/.esy/source/i/opam__s__conf_pkg_config__opam__c__1.1__98a9c1d9/",
-             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
-                                             ["@opam/conf-pkg-config",
-                                             "opam:1.1"],
-                                             ["yarn-pkg-config",
-                                             "github:esy-ocaml/yarn-pkg-config#cca65f99674ed2d954d28788edeb8c57fada5ed0"]])}]])],
   ["@opam/conf-which",
   new Map([["opam:1",
            {
              packageLocation: "/Users/anthonymittaz/.esy/source/i/opam__s__conf_which__opam__c__1__cafac9ea/",
              packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
                                              ["@opam/conf-which", "opam:1"]])}]])],
-  ["@opam/conf-zlib",
-  new Map([["opam:1",
+  ["@opam/containers",
+  new Map([["opam:2.6",
            {
-             packageLocation: "/Users/anthonymittaz/.esy/source/i/opam__s__conf_zlib__opam__c__1__79851993/",
+             packageLocation: "/Users/anthonymittaz/.esy/source/i/opam__s__containers__opam__c__2.6__4d6a4f19/",
              packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
-                                             ["@opam/conf-pkg-config",
-                                             "opam:1.1"],
-                                             ["@opam/conf-zlib", "opam:1"],
-                                             ["esy-zlib",
-                                             "github:esy-packages/esy-zlib#404929fd8b7ed83ed6a528d751840faff957b4b3"]])}]])],
+                                             ["@opam/base-threads",
+                                             "opam:base"],
+                                             ["@opam/base-unix", "opam:base"],
+                                             ["@opam/containers", "opam:2.6"],
+                                             ["@opam/dune", "opam:1.10.0"],
+                                             ["@opam/result", "opam:1.4"],
+                                             ["@opam/uchar", "opam:0.0.2"],
+                                             ["ocaml", "4.6.10"]])}]])],
   ["@opam/cppo",
   new Map([["opam:1.6.6",
            {
@@ -290,21 +277,6 @@ new Map([["0.0.0",
                                              ["@opam/cpuid", "opam:0.1.2"],
                                              ["@opam/dune", "opam:1.10.0"],
                                              ["ocaml", "4.6.10"]])}]])],
-  ["@opam/cryptokit",
-  new Map([["opam:1.13",
-           {
-             packageLocation: "/Users/anthonymittaz/.esy/source/i/opam__s__cryptokit__opam__c__1.13__738001d0/",
-             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
-                                             ["@opam/conf-gmp-powm-sec",
-                                             "opam:1"],
-                                             ["@opam/conf-zlib", "opam:1"],
-                                             ["@opam/cryptokit", "opam:1.13"],
-                                             ["@opam/ocamlbuild",
-                                             "opam:0.14.0"],
-                                             ["@opam/ocamlfind",
-                                             "opam:1.8.0"],
-                                             ["@opam/zarith", "opam:1.7"],
-                                             ["ocaml", "4.6.10"]])}]])],
   ["@opam/cstruct",
   new Map([["opam:3.3.0",
            {
@@ -314,6 +286,26 @@ new Map([["0.0.0",
                                              ["@opam/dune", "opam:1.10.0"],
                                              ["@opam/sexplib",
                                              "opam:v0.11.0"],
+                                             ["ocaml", "4.6.10"]])}]])],
+  ["@opam/decoders",
+  new Map([["opam:0.2.0",
+           {
+             packageLocation: "/Users/anthonymittaz/.esy/source/i/opam__s__decoders__opam__c__0.2.0__dda8abf6/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/containers", "opam:2.6"],
+                                             ["@opam/decoders", "opam:0.2.0"],
+                                             ["@opam/dune", "opam:1.10.0"],
+                                             ["ocaml", "4.6.10"]])}]])],
+  ["@opam/decoders-yojson",
+  new Map([["opam:0.2.0",
+           {
+             packageLocation: "/Users/anthonymittaz/.esy/source/i/opam__s__decoders_yojson__opam__c__0.2.0__839b7f16/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/decoders", "opam:0.2.0"],
+                                             ["@opam/decoders-yojson",
+                                             "opam:0.2.0"],
+                                             ["@opam/dune", "opam:1.10.0"],
+                                             ["@opam/yojson", "opam:1.7.0"],
                                              ["ocaml", "4.6.10"]])}]])],
   ["@opam/dune",
   new Map([["opam:1.10.0",
@@ -399,16 +391,17 @@ new Map([["0.0.0",
                                              ["@opam/ptime", "opam:0.8.5"],
                                              ["@opam/tyxml", "opam:4.3.0"]])}]])],
   ["@opam/jwt",
-  new Map([["opam:0.1",
+  new Map([["github:besport/ocaml-jwt:jwt.opam#6563a10",
            {
-             packageLocation: "/Users/anthonymittaz/.esy/source/i/opam__s__jwt__opam__c__0.1__db91d314/",
+             packageLocation: "/Users/anthonymittaz/.esy/source/i/opam__s__jwt__14764af6/",
              packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
-                                             ["@opam/base64", "opam:2.3.0"],
-                                             ["@opam/cryptokit", "opam:1.13"],
-                                             ["@opam/jwt", "opam:0.1"],
+                                             ["@opam/base64", "opam:3.2.0"],
+                                             ["@opam/jwt",
+                                             "github:besport/ocaml-jwt:jwt.opam#6563a10"],
+                                             ["@opam/nocrypto",
+                                             "github:mirleft/ocaml-nocrypto:opam#ed7bb8d911dc340e36d85d335d9edb8339f0932d"],
                                              ["@opam/re", "opam:1.9.0"],
-                                             ["@opam/yojson", "opam:1.7.0"],
-                                             ["ocaml", "4.6.10"]])}]])],
+                                             ["@opam/yojson", "opam:1.7.0"]])}]])],
   ["@opam/logs",
   new Map([["opam:0.6.3",
            {
@@ -993,12 +986,6 @@ new Map([["0.0.0",
              packageLocation: "/Users/anthonymittaz/.esy/source/i/esy_gmp__dea0079d/",
              packageDependencies: new Map([["esy-gmp",
                                            "archive:https://gmplib.org/download/gmp/gmp-6.1.2.tar.xz#sha1:9dc6981197a7d92f339192eea974f5eca48fcffe"]])}]])],
-  ["esy-zlib",
-  new Map([["github:esy-packages/esy-zlib#404929fd8b7ed83ed6a528d751840faff957b4b3",
-           {
-             packageLocation: "/Users/anthonymittaz/.esy/source/i/esy_zlib__852f6b2b/",
-             packageDependencies: new Map([["esy-zlib",
-                                           "github:esy-packages/esy-zlib#404929fd8b7ed83ed6a528d751840faff957b4b3"]])}]])],
   ["ocaml",
   new Map([["4.6.10",
            {
@@ -1036,19 +1023,16 @@ new Map([["0.0.0",
                                              ["@opam/re", "opam:1.9.0"],
                                              ["ocaml", "4.6.10"],
                                              ["refmterr", "3.1.10"]])}]])],
-  ["yarn-pkg-config",
-  new Map([["github:esy-ocaml/yarn-pkg-config#cca65f99674ed2d954d28788edeb8c57fada5ed0",
-           {
-             packageLocation: "/Users/anthonymittaz/.esy/source/i/yarn_pkg_config__71ddf21f/",
-             packageDependencies: new Map([["yarn-pkg-config",
-                                           "github:esy-ocaml/yarn-pkg-config#cca65f99674ed2d954d28788edeb8c57fada5ed0"]])}]])],
   [null,
   new Map([[null,
            {
              packageLocation: "/Users/anthonymittaz/Projects/Reason/jwt/",
              packageDependencies: new Map([["@esy-ocaml/reason", "3.4.0"],
+                                             ["@opam/decoders-yojson",
+                                             "opam:0.2.0"],
                                              ["@opam/dune", "opam:1.10.0"],
-                                             ["@opam/jwt", "opam:0.1"],
+                                             ["@opam/jwt",
+                                             "github:besport/ocaml-jwt:jwt.opam#6563a10"],
                                              ["@opam/merlin", "opam:3.3.1"],
                                              ["@opam/nocrypto",
                                              "github:mirleft/ocaml-nocrypto:opam#ed7bb8d911dc340e36d85d335d9edb8339f0932d"],
@@ -1084,10 +1068,6 @@ let locatorsByLocations = new Map([
   {
     name: "@esy-ocaml/substs",
     reference: "0.0.1"}],
-  ["../../../../../.esy/source/i/esy_zlib__852f6b2b/",
-  {
-    name: "esy-zlib",
-    reference: "github:esy-packages/esy-zlib#404929fd8b7ed83ed6a528d751840faff957b4b3"}],
   ["../../../../../.esy/source/i/ocaml__4.6.10__9ccacbc4/",
   {
     name: "ocaml",
@@ -1096,10 +1076,10 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/astring",
     reference: "opam:0.8.3"}],
-  ["../../../../../.esy/source/i/opam__s__base64__opam__c__2.3.0__9e2abab1/",
+  ["../../../../../.esy/source/i/opam__s__base64__opam__c__3.2.0__6d458a0f/",
   {
     name: "@opam/base64",
-    reference: "opam:2.3.0"}],
+    reference: "opam:3.2.0"}],
   ["../../../../../.esy/source/i/opam__s__base__opam__c__v0.11.1__753e67c0/",
   {
     name: "@opam/base",
@@ -1132,10 +1112,6 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/conf-gmp",
     reference: "opam:1"}],
-  ["../../../../../.esy/source/i/opam__s__conf_gmp_powm_sec__opam__c__1__7c74aeb8/",
-  {
-    name: "@opam/conf-gmp-powm-sec",
-    reference: "opam:1"}],
   ["../../../../../.esy/source/i/opam__s__conf_m4__opam__c__1__2502196a/",
   {
     name: "@opam/conf-m4",
@@ -1144,18 +1120,14 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/conf-perl",
     reference: "opam:1"}],
-  ["../../../../../.esy/source/i/opam__s__conf_pkg_config__opam__c__1.1__98a9c1d9/",
-  {
-    name: "@opam/conf-pkg-config",
-    reference: "opam:1.1"}],
   ["../../../../../.esy/source/i/opam__s__conf_which__opam__c__1__cafac9ea/",
   {
     name: "@opam/conf-which",
     reference: "opam:1"}],
-  ["../../../../../.esy/source/i/opam__s__conf_zlib__opam__c__1__79851993/",
+  ["../../../../../.esy/source/i/opam__s__containers__opam__c__2.6__4d6a4f19/",
   {
-    name: "@opam/conf-zlib",
-    reference: "opam:1"}],
+    name: "@opam/containers",
+    reference: "opam:2.6"}],
   ["../../../../../.esy/source/i/opam__s__cppo__opam__c__1.6.6__2223b9cb/",
   {
     name: "@opam/cppo",
@@ -1164,14 +1136,18 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/cpuid",
     reference: "opam:0.1.2"}],
-  ["../../../../../.esy/source/i/opam__s__cryptokit__opam__c__1.13__738001d0/",
-  {
-    name: "@opam/cryptokit",
-    reference: "opam:1.13"}],
   ["../../../../../.esy/source/i/opam__s__cstruct__opam__c__3.3.0__b22dd5f3/",
   {
     name: "@opam/cstruct",
     reference: "opam:3.3.0"}],
+  ["../../../../../.esy/source/i/opam__s__decoders__opam__c__0.2.0__dda8abf6/",
+  {
+    name: "@opam/decoders",
+    reference: "opam:0.2.0"}],
+  ["../../../../../.esy/source/i/opam__s__decoders_yojson__opam__c__0.2.0__839b7f16/",
+  {
+    name: "@opam/decoders-yojson",
+    reference: "opam:0.2.0"}],
   ["../../../../../.esy/source/i/opam__s__dune__opam__c__1.10.0__6e365125/",
   {
     name: "@opam/dune",
@@ -1200,10 +1176,10 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/junit",
     reference: "opam:2.0.1"}],
-  ["../../../../../.esy/source/i/opam__s__jwt__opam__c__0.1__db91d314/",
+  ["../../../../../.esy/source/i/opam__s__jwt__14764af6/",
   {
     name: "@opam/jwt",
-    reference: "opam:0.1"}],
+    reference: "github:besport/ocaml-jwt:jwt.opam#6563a10"}],
   ["../../../../../.esy/source/i/opam__s__logs__opam__c__0.6.3__f0f55b48/",
   {
     name: "@opam/logs",
@@ -1391,11 +1367,7 @@ let locatorsByLocations = new Map([
   ["../../../../../.esy/source/i/refmterr__3.1.10__c289b5fb/",
   {
     name: "refmterr",
-    reference: "3.1.10"}],
-  ["../../../../../.esy/source/i/yarn_pkg_config__71ddf21f/",
-  {
-    name: "yarn-pkg-config",
-    reference: "github:esy-ocaml/yarn-pkg-config#cca65f99674ed2d954d28788edeb8c57fada5ed0"}]]);
+    reference: "3.1.10"}]]);
 
 
   exports.findPackageLocator = function findPackageLocator(location) {
@@ -1432,6 +1404,11 @@ let locatorsByLocations = new Map([
 
       if (relativeLocation.length >= 82 && relativeLocation[81] === '/')
         if (match = locatorsByLocations.get(relativeLocation.substr(0, 82)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 80 && relativeLocation[79] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 80)))
           return blacklistCheck(match);
       
 
@@ -1515,23 +1492,18 @@ let locatorsByLocations = new Map([
           return blacklistCheck(match);
       
 
-      if (relativeLocation.length >= 55 && relativeLocation[54] === '/')
-        if (match = locatorsByLocations.get(relativeLocation.substr(0, 55)))
-          return blacklistCheck(match);
-      
-
       if (relativeLocation.length >= 53 && relativeLocation[52] === '/')
         if (match = locatorsByLocations.get(relativeLocation.substr(0, 53)))
           return blacklistCheck(match);
       
 
-      if (relativeLocation.length >= 51 && relativeLocation[50] === '/')
-        if (match = locatorsByLocations.get(relativeLocation.substr(0, 51)))
+      if (relativeLocation.length >= 52 && relativeLocation[51] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 52)))
           return blacklistCheck(match);
       
 
-      if (relativeLocation.length >= 48 && relativeLocation[47] === '/')
-        if (match = locatorsByLocations.get(relativeLocation.substr(0, 48)))
+      if (relativeLocation.length >= 51 && relativeLocation[50] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 51)))
           return blacklistCheck(match);
       
 

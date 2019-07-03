@@ -1,6 +1,4 @@
 {
-  "yarn-pkg-config@github:esy-ocaml/yarn-pkg-config#cca65f99674ed2d954d28788edeb8c57fada5ed0@d41d8cd9":
-    "/Users/anthonymittaz/.esy/source/i/yarn_pkg_config__71ddf21f",
   "refmterr@3.1.10@d41d8cd9":
     "/Users/anthonymittaz/.esy/source/i/refmterr__3.1.10__c289b5fb",
   "pesy@github:esy/pesy#ba6359f25621280a8105d2ffc99d75d849c0d95a@d41d8cd9":
@@ -8,8 +6,6 @@
   "ocaml@4.6.10@d41d8cd9":
     "/Users/anthonymittaz/.esy/source/i/ocaml__4.6.10__9ccacbc4",
   "jwt@link-dev:./package.json": "/Users/anthonymittaz/Projects/Reason/jwt",
-  "esy-zlib@github:esy-packages/esy-zlib#404929fd8b7ed83ed6a528d751840faff957b4b3@d41d8cd9":
-    "/Users/anthonymittaz/.esy/source/i/esy_zlib__852f6b2b",
   "esy-gmp@archive:https://gmplib.org/download/gmp/gmp-6.1.2.tar.xz#sha1:9dc6981197a7d92f339192eea974f5eca48fcffe@186b9388":
     "/Users/anthonymittaz/.esy/source/i/esy_gmp__dea0079d",
   "dune@0.2.1@d41d8cd9":
@@ -104,8 +100,8 @@
     "/Users/anthonymittaz/.esy/source/i/opam__s__menhir__opam__c__20190626__36c87ded",
   "@opam/logs@opam:0.6.3@80c08d15":
     "/Users/anthonymittaz/.esy/source/i/opam__s__logs__opam__c__0.6.3__f0f55b48",
-  "@opam/jwt@opam:0.1@f91003b6":
-    "/Users/anthonymittaz/.esy/source/i/opam__s__jwt__opam__c__0.1__db91d314",
+  "@opam/jwt@github:besport/ocaml-jwt:jwt.opam#6563a10@d41d8cd9":
+    "/Users/anthonymittaz/.esy/source/i/opam__s__jwt__14764af6",
   "@opam/junit@opam:2.0.1@c25e35a7":
     "/Users/anthonymittaz/.esy/source/i/opam__s__junit__opam__c__2.0.1__b823c5a1",
   "@opam/jbuilder@opam:transition@58bdfe0a":
@@ -120,26 +116,24 @@
     "/Users/anthonymittaz/.esy/source/i/opam__s__easy_format__opam__c__1.3.1__09dd6fc0",
   "@opam/dune@opam:1.10.0@b15ce221":
     "/Users/anthonymittaz/.esy/source/i/opam__s__dune__opam__c__1.10.0__6e365125",
+  "@opam/decoders-yojson@opam:0.2.0@addc2816":
+    "/Users/anthonymittaz/.esy/source/i/opam__s__decoders_yojson__opam__c__0.2.0__839b7f16",
+  "@opam/decoders@opam:0.2.0@cbdf8cf1":
+    "/Users/anthonymittaz/.esy/source/i/opam__s__decoders__opam__c__0.2.0__dda8abf6",
   "@opam/cstruct@opam:3.3.0@04350e30":
     "/Users/anthonymittaz/.esy/source/i/opam__s__cstruct__opam__c__3.3.0__b22dd5f3",
-  "@opam/cryptokit@opam:1.13@2c543ac9":
-    "/Users/anthonymittaz/.esy/source/i/opam__s__cryptokit__opam__c__1.13__738001d0",
   "@opam/cpuid@opam:0.1.2@d0b05a9d":
     "/Users/anthonymittaz/.esy/source/i/opam__s__cpuid__opam__c__0.1.2__a0abf37b",
   "@opam/cppo@opam:1.6.6@25eb99ce":
     "/Users/anthonymittaz/.esy/source/i/opam__s__cppo__opam__c__1.6.6__2223b9cb",
-  "@opam/conf-zlib@opam:1@590d0620":
-    "/Users/anthonymittaz/.esy/source/i/opam__s__conf_zlib__opam__c__1__79851993",
+  "@opam/containers@opam:2.6@b3a5fc8e":
+    "/Users/anthonymittaz/.esy/source/i/opam__s__containers__opam__c__2.6__4d6a4f19",
   "@opam/conf-which@opam:1@56319cdb":
     "/Users/anthonymittaz/.esy/source/i/opam__s__conf_which__opam__c__1__cafac9ea",
-  "@opam/conf-pkg-config@opam:1.1@da0b7ce6":
-    "/Users/anthonymittaz/.esy/source/i/opam__s__conf_pkg_config__opam__c__1.1__98a9c1d9",
   "@opam/conf-perl@opam:1@3174af0e":
     "/Users/anthonymittaz/.esy/source/i/opam__s__conf_perl__opam__c__1__f2838807",
   "@opam/conf-m4@opam:1@dd7dde42":
     "/Users/anthonymittaz/.esy/source/i/opam__s__conf_m4__opam__c__1__2502196a",
-  "@opam/conf-gmp-powm-sec@opam:1@a2852486":
-    "/Users/anthonymittaz/.esy/source/i/opam__s__conf_gmp_powm_sec__opam__c__1__7c74aeb8",
   "@opam/conf-gmp@opam:1@bee458be":
     "/Users/anthonymittaz/.esy/source/i/opam__s__conf_gmp__opam__c__1__d72019a8",
   "@opam/cmdliner@opam:1.0.3@96d31520":
@@ -148,8 +142,8 @@
     "/Users/anthonymittaz/.esy/source/i/opam__s__bos__opam__c__0.2.0__7a96f5d8",
   "@opam/biniou@opam:1.2.0@c8516f18":
     "/Users/anthonymittaz/.esy/source/i/opam__s__biniou__opam__c__1.2.0__7c0af8cd",
-  "@opam/base64@opam:2.3.0@691ae04a":
-    "/Users/anthonymittaz/.esy/source/i/opam__s__base64__opam__c__2.3.0__9e2abab1",
+  "@opam/base64@opam:3.2.0@e1bac209":
+    "/Users/anthonymittaz/.esy/source/i/opam__s__base64__opam__c__3.2.0__6d458a0f",
   "@opam/base-unix@opam:base@87d0b2eb":
     "/Users/anthonymittaz/.esy/source/i/opam__s__base_unix__opam__c__base__93427a57",
   "@opam/base-threads@opam:base@36803084":

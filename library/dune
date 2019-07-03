@@ -1,1 +1,2 @@
-(library (name Library) (public_name jwt.library)) 
+(library (name Library) (public_name jwt.library)
+    (libraries jwt yojson decoders-yojson)) 

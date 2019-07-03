@@ -20,7 +20,13 @@
         "TestJwt.exe": "TestJwt.re"
       }
     },
-    "library": {},
+    "library": {
+      "require": [
+        "jwt",
+        "yojson",
+        "decoders-yojson"
+      ]
+    },
     "executable": {
       "require": [
         "jwt/library"
@@ -41,13 +47,15 @@
     "pesy": "*",
     "@reason-native/rely": "*",
     "@opam/jwt": "*",
-    "@opam/nocrypto": "*"
+    "@opam/nocrypto": "*",
+    "@opam/decoders-yojson": "*"
   },
   "devDependencies": {
     "@opam/merlin": "*"
   },
   "resolutions": {
     "pesy": "esy/pesy#ba6359f25621280a8105d2ffc99d75d849c0d95a",
-    "@opam/nocrypto": "mirleft/ocaml-nocrypto:opam#ed7bb8d911dc340e36d85d335d9edb8339f0932d"
+    "@opam/nocrypto": "mirleft/ocaml-nocrypto:opam#ed7bb8d911dc340e36d85d335d9edb8339f0932d",
+    "@opam/jwt": "besport/ocaml-jwt:jwt.opam#6563a10"
   }
 }
